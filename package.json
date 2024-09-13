@@ -1,0 +1,29 @@
+{
+  "name": "title-extractor",
+  "version": "1.0.0",
+  "description": "A Node.js server to extract titles from provided URLs.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js callbacks",
+    "start-async": "node src/index.js async",
+    "start-promises": "node src/index.js promises",
+    "start-rxjs": "node src/index.js rxjs",
+    "dev": "nodemon src/index.js callbacks",
+    "dev-async": "nodemon src/index.js async",
+    "dev-promises": "nodemon src/index.js promises",
+    "dev-rxjs": "nodemon src/index.js rxjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.6",
+    "express": "^4.20.0",
+    "node-html-parser": "^4.1.5",
+    "rsvp": "^4.8.5",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
